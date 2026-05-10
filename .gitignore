@@ -1,0 +1,7 @@
+# Jekyll local-build output (Pages builds remotely; this dir
+# only appears if someone runs `bundle exec jekyll serve`
+# locally to preview).
+_site/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock

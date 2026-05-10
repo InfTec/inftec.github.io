@@ -1,0 +1,8 @@
+title: InfTec
+description: Public documents for InfTec apps and services.
+# jekyll-theme-cayman is one of the GitHub Pages built-in themes,
+# so no Gemfile or local Jekyll install is needed for Pages to
+# render this. Per-page hero text is overridden via front-matter
+# `title:` / `description:` fields on each individual page.
+theme: jekyll-theme-cayman
+show_downloads: false
