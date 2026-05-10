@@ -18,7 +18,7 @@ etc.) for InfTec apps. Served at:
 │   ├── css/style.scss                # InfTec brand overrides on top of cayman
 │   └── img/
 │       ├── inftec-logo.png           # white-on-dark-gray logo (header band)
-│       └── favicon-32.png            # browser tab favicon
+│       └── favicon.ico               # matches the one served by inftec.ch
 ├── doodle-poodle/
 │   └── privacy/
 │       └── index.md                  # → https://inftec.github.io/doodle-poodle/privacy/
