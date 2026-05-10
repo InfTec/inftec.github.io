@@ -6,3 +6,18 @@ description: Public documents for InfTec apps and services.
 # `title:` / `description:` fields on each individual page.
 theme: jekyll-theme-cayman
 show_downloads: false
+
+# Files in the repo that should NOT become served URLs.
+# Setting `exclude` overrides Jekyll's default exclude list, so
+# we re-list the defaults (Gemfile etc.) alongside our own
+# additions (README.md). Anything listed here is still public on
+# github.com (the repo itself is public) but won't appear under
+# https://inftec.github.io/.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - node_modules/
+  - .sass-cache/
+  - .jekyll-cache/
