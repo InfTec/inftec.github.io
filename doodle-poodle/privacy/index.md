@@ -10,6 +10,8 @@ description: Privacy policy for the Doodle-Poodle kids' drawing-and-guessing gam
   source on every revision.
 -->
 
+<p class="lang-switcher"><strong>English</strong> · <a href="de/">Deutsch</a></p>
+
 **Effective date:** 2026-05-10
 **Last updated:** 2026-05-10
 

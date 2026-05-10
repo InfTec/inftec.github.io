@@ -124,6 +124,34 @@ body {
 }
 
 // -----------------------------------------------------------------------------
+// Language switcher
+// -----------------------------------------------------------------------------
+// Tiny inline element placed at the top of bilingual pages
+// (e.g. /doodle-poodle/privacy/ ↔ /doodle-poodle/privacy/de/).
+// Active language is rendered as <strong>; other language as a link.
+
+.lang-switcher {
+  text-align: right;
+  font-size: 0.9em;
+  margin: 0 0 1.5rem;
+  color: $inftec-dark-gray;
+
+  a {
+    color: $inftec-orange;
+
+    &:hover,
+    &:focus {
+      color: $inftec-red;
+    }
+  }
+
+  strong {
+    color: $inftec-dark-gray;
+    font-weight: 600;
+  }
+}
+
+// -----------------------------------------------------------------------------
 // Footer
 // -----------------------------------------------------------------------------
 
