@@ -12,6 +12,13 @@ etc.) for InfTec apps. Served at:
 .
 ├── index.md                          # landing page
 ├── _config.yml                       # Jekyll config (theme, site title)
+├── _layouts/
+│   └── default.html                  # custom layout (logo header, footer)
+├── assets/
+│   ├── css/style.scss                # InfTec brand overrides on top of cayman
+│   └── img/
+│       ├── inftec-logo.png           # white-on-dark-gray logo (header band)
+│       └── favicon-32.png            # browser tab favicon
 ├── doodle-poodle/
 │   └── privacy/
 │       └── index.md                  # → https://inftec.github.io/doodle-poodle/privacy/
@@ -21,6 +28,25 @@ etc.) for InfTec apps. Served at:
 Each app gets its own top-level directory; each document type
 gets a sub-directory with an `index.md` so the URL slug is
 clean (`/<app>/<doc>/`, not `/<app>/<doc>.html`).
+
+## Branding
+
+The site's look matches the InfTec corporate styleguide:
+
+- **Header band** is `#4D4D4D` (styleguide dark-gray) with the
+  authorised "icon-orange + wordmark-white on dark gray" logo
+  variant.
+- **Body links** use the brand orange `#F18D0D`, hovering to the
+  brand red `#ED1C24` (the two endpoints of the brand gradient).
+- **Type** is the system sans stack — the styleguide authorises
+  Helvetica / Arial as substitutes for the commercial ARS
+  Maquette Pro, and a system stack avoids a webfont round-trip.
+
+Brand tokens are centralised at the top of
+[`assets/css/style.scss`](assets/css/style.scss) so a styleguide
+revision touches one file. The custom layout
+[`_layouts/default.html`](_layouts/default.html) overrides
+cayman's default to inject the logo and the InfTec footer.
 
 ## Per-document source of truth
 
